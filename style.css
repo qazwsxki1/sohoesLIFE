@@ -1,0 +1,88 @@
+*{
+    padding: 0;
+    margin: 0;
+   
+}
+
+a{
+    color: inherit;
+}
+.header{
+    padding: 10px;
+    height: 100px;
+    background-color: rgb(123, 47, 158) !important;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#image{
+    height: 100px;
+    width: 100px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 50%;
+}
+
+nav{
+    display: flex;
+    column-gap: 200px;
+    color: white;
+}
+
+nav a{
+    text-decoration: none;
+    cursor: pointer;
+}
+
+button{
+    border: none ;
+    border-radius: 20px;
+    color: inherit;
+    padding: 10px;
+    background-color:aliceblue;
+    
+}
+
+.card{
+    width: 200px;
+    height: 300px;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 10px 20px;
+    text-align: center;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card img{
+ width: 100PX;
+ height: 100PX;
+ font-size: 25px;
+ font-weight: 600;
+ border-radius: 50%;
+ object-fit: cover;
+ object-position: center;
+}
+
+.card p{
+    width: 100px;
+    height: 170px;
+    /* white-space: ; */
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.card_conteiner{
+    display: flex;
+    padding: 0 100px;
+    justify-content: space-between;
+    gap: 100px;
+}
+.body{
+    background: url(https://img.freepik.com/premium-photo/minimal-hand-drawn-background-pastel-color-vector-illustration_919698-506.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
